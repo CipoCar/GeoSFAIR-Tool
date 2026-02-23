@@ -1,7 +1,6 @@
 # GeoSFAIR-Tool
 GeoSciences FAIR tool for GeoSpatial FAIR evaluation
-
-# GeoSFAIR Function description
+---
 
 ## WHAT IS TESTED
 
