@@ -1,2 +1,15 @@
 # GeoSFAIR-Tool
 GeoSciences FAIR tool for GeoSpatial FAIR evaluation
+
+# GeoSFAIR Function description
+
+## WHAT IS TESTED
+
+GeoSFAIR is a FAIR evaluation tool for research product with specific focus on Geospatial Dataset and Metadata for dataset. These two type of prodcut are tested taking in consideration international standards and technical guidelines and rules of INSPIRE.
+Generally, the tool is developed to test resources available online, so some checks on files uploaded to the system are limited or blocked.
+The following products and related by-products can be assessed:
+- **Metadata** for dataset (in this case the metadata xml file in ISO 19115 standard can be evaluated or an online resource that responds with ISO 19115 XML, it can be a classic CSW GetRecordById, or a REST API of the xml or an OAI-PMH request.)
+- **Dataset** (In this case, the system primarily expects an online resource via standard network services such as WMS, WCS, WFS, OGC Feature API, OGC Coverage API, and SensorThings API. Alternatively, a landing page URL can be used that provides direct access to the file or file upload. In the case of direct file access or file upload, some controls will not be possible. Furthermore, only the following open file formats are currently supported: csv, geojson, gml, rdf, and gpkg.)
+- **Vocabulary** (Vocabulary checks can be performed either on an online resource or uploaded to the platform. The file must be a SKOS file in RDF/TTL format. In the case of vocabularies, the metadata is expressed directly within the file itself.)
+- **Software/application** (Verification of software or application code occurs only through an online resource by providing the URL to the code repository. Currently, the system recognizes the main code repositories: GitHub, GitLab, and (in the next future) Bitbucket. It is essential that access to the code is open and that a series of files exist that allowa for identification of metadata, such as: Citation.cff, Readme.md, License, Contributing.md, and Changelog.md)
+- **Document and paper** (Verifying the FAIRness level of documents requires them to be documented within an OpenAIRE-standard catalog—specifically a national or European repository that supports metadata enrichment and the inclusion of a document link. This link is often provided via a DOI [Digital Object Identifier], which redirects to the landing page within the document catalog. Therefore, simply having a document available in an open repository is not enough to test it; it must be classified within a recognized OpenAIRE-standard repository [e.g., Zenodo]. Only openAIRE catalog link can be tested to verify the FAIR level of a document. - Certainly. It is necessary to reiterate that 'documents' and 'papers' encompass all scientific and technical documentation. This includes scientific works in both peer-reviewed and non-refereed journals or books, technical documents, guidelines, geothematic maps [digital PDF], as well as analytical models and methods.)
