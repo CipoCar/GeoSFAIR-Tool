@@ -1,6 +1,6 @@
-project = 'Nome del tuo Progetto'
-copyright = '2024, Tuo Nome'
-author = 'Tuo Nome'
+project = 'GeoSFAIR-Tool'
+copyright = '2026 - ISPRA GeoSciences IR'
+author = 'Carlo Cipolloni'
 extensions = []
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
