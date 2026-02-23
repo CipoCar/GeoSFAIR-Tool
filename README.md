@@ -1,5 +1,5 @@
 # GeoSFAIR-Tool
-GeoSciences FAIR tool for GeoSpatial FAIR evaluation
+_GeoSciences FAIR tool for GeoSpatial FAIR evaluation_
 ---
 
 ## WHAT IS TESTED
