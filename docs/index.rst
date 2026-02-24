@@ -8,7 +8,7 @@ Introduction
    :maxdepth: 2
    :caption: Introduction
 
-   Tool Overview
+   Tool overview
    What it Evaluates
    FAIR Matrix Used:
    Metadata
