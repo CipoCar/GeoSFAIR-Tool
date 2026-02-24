@@ -1,8 +1,6 @@
 GeoSFAIR Tool Guidelines v. 1.0
 ================================
 
-Introduction
-------------
 
 .. toctree::
    :maxdepth: 2
